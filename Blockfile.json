@@ -1,6 +1,7 @@
 {
   "require": [
     "wtf",
-    "module-aws-env"
+    "module-aws-env",
+    "module-aws-app"
   ]
 }

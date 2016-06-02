@@ -15,3 +15,11 @@ module "env" {
 
   nat_cidrs = "${var.nat_cidrs}"
 }
+
+module "consul" {
+  source = "../module-aws-app"
+
+  provider_region = "${var.provider_region}"
+
+  vpc_name = "${var.vpc_name}"
+}
