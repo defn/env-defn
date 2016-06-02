@@ -14,6 +14,8 @@ module "env" {
   az_names = "${var.az_names}"
 
   nat_cidrs = "${var.nat_cidrs}"
+
+  bucket_remote_state = "defn-remote-state"
 }
 
 module "consul" {
