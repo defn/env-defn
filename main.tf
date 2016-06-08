@@ -16,6 +16,7 @@ module "env" {
   nat_cidrs = "${var.nat_cidrs}"
 
   bucket_remote_state = "${var.bucket_remote_state}"
+  context_org = "${var.context_org}"
 }
 
 module "consul" {
